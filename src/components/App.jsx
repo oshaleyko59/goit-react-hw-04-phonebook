@@ -10,7 +10,7 @@
 // *    - Під час додавання та видалення контакту контакти зберігаються у локальне сховище.
 // *    - Під час завантаження контакти зчитуються з локального сховища і записуються у стан.
 
-import React, { Component, Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { ContactForm } from './ContactForm';
 import { ContactList } from './ContactList';
 import { Filter } from './Filter';
